@@ -72,6 +72,9 @@ namespace octomap {
   template <typename T>
   void OcTreeDataNode<T>::copyData(const OcTreeDataNode<T>& from){
     value = from.value;     
+    is_free = from.is_free; 
+    unoccupied_duration = from.unoccupied_duration; 
+    last_occupied_time = from.last_occupied_time; 
   }
 
   template <typename T>

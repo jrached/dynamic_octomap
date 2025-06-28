@@ -86,7 +86,6 @@ namespace octomap {
 
     /// adds p to the node's logOdds value (with no boundary / threshold checking!)
     void addValue(const float& p);
-    
 
   protected:
     // "value" stores log odds occupancy probability

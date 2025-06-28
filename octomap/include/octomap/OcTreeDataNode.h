@@ -126,6 +126,9 @@ namespace octomap {
     AbstractOcTreeNode** children;
     /// stored data (payload)
     T value;
+    bool is_free = false; 
+    double unoccupied_duration = 0.0; 
+    double last_occupied_time = 0.0;
 
   };
 
