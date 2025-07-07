@@ -129,7 +129,9 @@ namespace octomap {
     bool is_free = false; 
     double unoccupied_duration = 0.0; 
     double last_occupied_time = 0.0;
-
+    double occupied_duration = 0.0;
+    double last_unoccupied_time = 0.0;
+    OcTreeDataNode* parent; 
   };
 
 
