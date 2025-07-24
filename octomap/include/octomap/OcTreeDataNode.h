@@ -134,6 +134,7 @@ namespace octomap {
     OcTreeDataNode* parent; 
     bool is_new = true;
     double alive_duration = 0.0;
+    double start_time = 0.0;
   };
 
 
