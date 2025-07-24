@@ -77,6 +77,8 @@ namespace octomap {
     last_occupied_time = from.last_occupied_time; 
     occupied_duration = from.occupied_duration;
     last_unoccupied_time = from.last_unoccupied_time;
+    alive_duration = from.alive_duration;
+    is_new = from.is_new;
   }
 
   template <typename T>
