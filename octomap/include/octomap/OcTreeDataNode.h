@@ -133,7 +133,6 @@ namespace octomap {
     double last_unoccupied_time = 0.0;
     OcTreeDataNode* parent; 
     bool is_new = true;
-    double alive_duration = 0.0;
     double start_time = 0.0;
   };
 
